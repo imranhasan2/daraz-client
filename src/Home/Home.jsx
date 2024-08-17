@@ -19,7 +19,7 @@ const Home = () => {
     const url = `http://localhost:3000/products?search=${search}&sortPrice=${sortPrice}`
 
     const { data: products = [], refetch } = useQuery({
-        queryKey: ['product', search,sortPrice],
+        queryKey: ['product', search, sortPrice],
         queryFn: async () => {
             const { data } = await axios.get(url)
             return data
@@ -43,6 +43,19 @@ const Home = () => {
         setSearch(searchText)
         console.log(searchText)
         refetch()
+
+    }
+
+
+    // filter product....
+
+    const handleBrandChange =()=>{
+        
+    }
+    const handleCategoryChange =()=>{
+
+    }
+    const handlePriceRangeChange =()=>{
 
     }
 
@@ -83,13 +96,36 @@ const Home = () => {
 
                 </div>
             </div>
+            {/* filter */}
             <div>
                 <h2> Filter Products</h2>
-                <select name="" >
-                    <option value="category">category</option>
-                    <option value="price">price</option>
-                    <option value="brand">brand</option>
-                </select>
+                <div>
+                    <label>Brand:</label>
+                    <select onChange={handleBrandChange}>
+                        <option value="">All</option>
+                        <option value="Brand A">Brand A</option>
+                        <option value="Brand B">Brand B</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label>Category:</label>
+                    <select onChange={handleCategoryChange}>
+                        <option value="">All</option>
+                        <option value="Category 1">Category 1</option>
+                        <option value="Category 2">Category 2</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label>Price Range:</label>
+                    <select onChange={handlePriceRangeChange}>
+                        <option value="">All</option>
+                        <option value="0-50">0 - 50</option>
+                        <option value="51-100">51 - 100</option>
+                        <option value="101-200">101 - 200</option>
+                    </select>
+                </div>
             </div>
 
 

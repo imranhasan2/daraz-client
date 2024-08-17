@@ -14,6 +14,9 @@ import {
   QueryClientProvider,
 } from '@tanstack/react-query';
 import AuthProvider from './AuthProvider.jsx';
+import Login from './Login.jsx';
+import Register from './Register.jsx';
+import PrivateRoute from './PrivateROute/PrivateRoute.jsx';
 
 const queryClient = new QueryClient();
 
@@ -23,8 +26,15 @@ const router = createBrowserRouter([
     element: <Main></Main>,
     children: [{
       path: '/',
-      element: <Home></Home>
-    }]
+      element: <PrivateRoute><Home></Home></PrivateRoute>
+    },{
+      path:'/login',
+      element:<Login></Login>
+    },{
+      path:'/register',
+      element:<Register/>
+    }
+  ]
 
   },
 ]);

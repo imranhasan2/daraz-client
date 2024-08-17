@@ -49,8 +49,8 @@ const Register = () => {
         createUser(email, password)
             .then(result => {
                 console.log(result.user)
-                .then(res => res.json())
-                .then (data => console.log(data))
+                // .then(res => res.json())
+                // .then (data => console.log(data))
                 Swal.fire({
                     title: 'congrats',
                     text: 'you have successfully registered',
@@ -83,6 +83,12 @@ const Register = () => {
                                 <span className="label-text">Email</span>
                             </label>
                             <input type="email" name="email" placeholder="email" className="input input-bordered" required />
+                        </div>
+                        <div className="form-control">
+                            <label className="label">
+                                <span className="label-text">Password</span>
+                            </label>
+                            <input type="password" name="password" placeholder="password" className="input input-bordered" required />
                         </div>
                         
                         <div className="form-control mt-6">
