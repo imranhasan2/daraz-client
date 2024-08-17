@@ -3,10 +3,10 @@
 const Card = ({ product }) => {
     const { name, image, description, price, category, ratings, createdAt, brand } = product
 
-    
+
     return (
         <div>
-          
+
             <div className="card bg-base-100  shadow-xl">
                 <figure>
                     <img
@@ -20,9 +20,14 @@ const Card = ({ product }) => {
                         <div className="badge badge-secondary">{price}</div>
                     </h2>
                     <p>{description}</p>
-                    <div className="card-actions justify-end">
-                        <div className="badge badge-outline">{category}</div>
-                        <div className="badge badge-outline">{ratings}</div>
+                    <div className="card-actions justify-between">
+                        <div>
+                            <div className="badge badge-outline">{category}</div>
+                            <div className="badge badge-outline">{ratings}</div>
+                        </div>
+                        <div>
+                        <div className="badge badge-outline">{createdAt}</div>
+                        </div>
                     </div>
                 </div>
             </div>

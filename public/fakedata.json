@@ -7,7 +7,7 @@
         "category": "Electronics",
         "ratings": 4.8,
         "createdAt": "2024-08-01T10:00:00Z",
-        "brand": "Brand A"
+        "brand": "Apple"
     },
     {
         "name": "4K Ultra HD TV",
@@ -17,7 +17,7 @@
         "category": "Electronics",
         "ratings": 4.6,
         "createdAt": "2024-08-02T11:00:00Z",
-        "brand": "Brand B"
+        "brand": "Sony"
     },
     {
         "name": "Bluetooth Headphones",
@@ -27,7 +27,7 @@
         "category": "Electronics",
         "ratings": 4.3,
         "createdAt": "2024-08-03T12:00:00Z",
-        "brand": "Brand C"
+        "brand": "Bose"
     },
     {
         "name": "Electric Kettle",
@@ -37,7 +37,7 @@
         "category": "Home Appliances",
         "ratings": 4.5,
         "createdAt": "2024-08-04T13:00:00Z",
-        "brand": "Brand D"
+        "brand": "Philips"
     },
     {
         "name": "Air Purifier",
@@ -47,7 +47,7 @@
         "category": "Home Appliances",
         "ratings": 4.7,
         "createdAt": "2024-08-05T14:00:00Z",
-        "brand": "Brand E"
+        "brand": "Dyson"
     },
     {
         "name": "Smartwatch Pro",
@@ -57,7 +57,7 @@
         "category": "Electronics",
         "ratings": 4.4,
         "createdAt": "2024-08-06T15:00:00Z",
-        "brand": "Brand A"
+        "brand": "Samsung"
     },
     {
         "name": "Gaming Laptop",
@@ -67,7 +67,7 @@
         "category": "Electronics",
         "ratings": 4.9,
         "createdAt": "2024-08-07T16:00:00Z",
-        "brand": "Brand F"
+        "brand": "Asus"
     },
     {
         "name": "Leather Sofa",
@@ -77,7 +77,7 @@
         "category": "Furniture",
         "ratings": 4.5,
         "createdAt": "2024-08-08T17:00:00Z",
-        "brand": "Brand G"
+        "brand": "Ikea"
     },
     {
         "name": "Dining Table Set",
@@ -87,7 +87,7 @@
         "category": "Furniture",
         "ratings": 4.6,
         "createdAt": "2024-08-09T18:00:00Z",
-        "brand": "Brand H"
+        "brand": "West Elm"
     },
     {
         "name": "Portable Speaker",
@@ -97,7 +97,7 @@
         "category": "Electronics",
         "ratings": 4.2,
         "createdAt": "2024-08-10T19:00:00Z",
-        "brand": "Brand I"
+        "brand": "Dyson"
     },
     {
         "name": "Electric Toothbrush",
@@ -107,7 +107,7 @@
         "category": "Home Appliances",
         "ratings": 4.4,
         "createdAt": "2024-08-11T20:00:00Z",
-        "brand": "Brand J"
+        "brand": "Philips"
     },
     {
         "name": "Organic Coffee Maker",
@@ -117,7 +117,7 @@
         "category": "Home Appliances",
         "ratings": 4.3,
         "createdAt": "2024-08-12T21:00:00Z",
-        "brand": "Brand K"
+        "brand": "Keurig"
     },
     {
         "name": "Luxury Bed",
@@ -127,7 +127,7 @@
         "category": "Furniture",
         "ratings": 4.7,
         "createdAt": "2024-08-13T22:00:00Z",
-        "brand": "Brand L"
+        "brand": "West Elm"
     },
     {
         "name": "Electric Grill",
@@ -137,7 +137,7 @@
         "category": "Home Appliances",
         "ratings": 4.1,
         "createdAt": "2024-08-14T23:00:00Z",
-        "brand": "Brand M"
+        "brand": "Asus"
     },
     {
         "name": "Smart Thermostat",
@@ -147,7 +147,7 @@
         "category": "Home Appliances",
         "ratings": 4.6,
         "createdAt": "2024-08-15T10:00:00Z",
-        "brand": "Brand N"
+        "brand": "Philips"
     },
     {
         "name": "Sofa Bed",
@@ -157,7 +157,7 @@
         "category": "Furniture",
         "ratings": 4.3,
         "createdAt": "2024-08-16T11:00:00Z",
-        "brand": "Brand O"
+        "brand": "Ikea"
     },
     {
         "name": "Bookshelf",
@@ -167,7 +167,7 @@
         "category": "Furniture",
         "ratings": 4.4,
         "createdAt": "2024-08-17T12:00:00Z",
-        "brand": "Brand P"
+        "brand": "Ikea"
     },
     {
         "name": "Smart Home Hub",
@@ -177,7 +177,7 @@
         "category": "Electronics",
         "ratings": 4.5,
         "createdAt": "2024-08-18T13:00:00Z",
-        "brand": "Brand Q"
+        "brand": "Samsung"
     },
     {
         "name": "Coffee Table",
@@ -187,7 +187,7 @@
         "category": "Furniture",
         "ratings": 4.2,
         "createdAt": "2024-08-19T14:00:00Z",
-        "brand": "Brand R"
+        "brand": "Philips"
     },
     {
         "name": "Portable Air Conditioner",
@@ -197,7 +197,7 @@
         "category": "Home Appliances",
         "ratings": 4.6,
         "createdAt": "2024-08-20T15:00:00Z",
-        "brand": "Brand S"
+        "brand": "Bose"
     },
     {
         "name": "Electric Wine Opener",
@@ -207,7 +207,7 @@
         "category": "Home Appliances",
         "ratings": 4.3,
         "createdAt": "2024-08-21T16:00:00Z",
-        "brand": "Brand T"
+        "brand": "Asus"
     },
     {
         "name": "Cordless Vacuum Cleaner",
@@ -217,7 +217,7 @@
         "category": "Home Appliances",
         "ratings": 4.4,
         "createdAt": "2024-08-22T17:00:00Z",
-        "brand": "Brand U"
+        "brand": "Sony"
     },
     {
         "name": "Smart TV Stick",
@@ -227,7 +227,7 @@
         "category": "Electronics",
         "ratings": 4.2,
         "createdAt": "2024-08-23T18:00:00Z",
-        "brand": "Brand V"
+        "brand": "Philips"
     },
     {
         "name": "Air Fryer",
@@ -237,7 +237,7 @@
         "category": "Home Appliances",
         "ratings": 4.6,
         "createdAt": "2024-08-24T19:00:00Z",
-        "brand": "Brand W"
+        "brand": "Dyson"
     },
     {
         "name": "Digital Camera",
@@ -247,7 +247,7 @@
         "category": "Electronics",
         "ratings": 4.8,
         "createdAt": "2024-08-25T20:00:00Z",
-        "brand": "Brand X"
+        "brand": "Apple"
     },
     {
         "name": "Blender",
@@ -257,7 +257,7 @@
         "category": "Home Appliances",
         "ratings": 4.4,
         "createdAt": "2024-08-26T21:00:00Z",
-        "brand": "Brand Y"
+        "brand": "Sony"
     },
     {
         "name": "Home Theater System",
@@ -267,7 +267,7 @@
         "category": "Electronics",
         "ratings": 4.7,
         "createdAt": "2024-08-27T22:00:00Z",
-        "brand": "Brand Z"
+        "brand": "Sony"
     },
     {
         "name": "Electric Blanket",
@@ -277,7 +277,7 @@
         "category": "Home Appliances",
         "ratings": 4.5,
         "createdAt": "2024-08-28T23:00:00Z",
-        "brand": "Brand A"
+        "brand": "Philips"
     },
     {
         "name": "High Chair",
@@ -287,7 +287,7 @@
         "category": "Furniture",
         "ratings": 4.6,
         "createdAt": "2024-08-29T10:00:00Z",
-        "brand": "Brand B"
+        "brand": "West Elm"
     },
     {
         "name": "Gaming Console",
@@ -297,7 +297,7 @@
         "category": "Electronics",
         "ratings": 4.9,
         "createdAt": "2024-08-30T11:00:00Z",
-        "brand": "Brand C"
+        "brand": "Asus"
     },
     {
         "name": "Washing Machine",
@@ -307,7 +307,7 @@
         "category": "Home Appliances",
         "ratings": 4.4,
         "createdAt": "2024-08-31T12:00:00Z",
-        "brand": "Brand D"
+        "brand": "Sony"
     },
     {
         "name": "Mattress",
