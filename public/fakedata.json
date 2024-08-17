@@ -1,0 +1,403 @@
+[
+    {
+        "name": "Smartphone X Pro",
+        "image": "https://img.freepik.com/free-psd/dark-mobile-device-mockup_149660-801.jpg",
+        "description": "Latest smartphone with advanced features.",
+        "price": 999.99,
+        "category": "Electronics",
+        "ratings": 4.8,
+        "createdAt": "2024-08-01T10:00:00Z",
+        "brand": "Brand A"
+    },
+    {
+        "name": "4K Ultra HD TV",
+        "image": "https://img.freepik.com/free-photo/view-computer-monitor-display_23-2150757407.jpg",
+        "description": "High-definition TV with vibrant colors.",
+        "price": 799.99,
+        "category": "Electronics",
+        "ratings": 4.6,
+        "createdAt": "2024-08-02T11:00:00Z",
+        "brand": "Brand B"
+    },
+    {
+        "name": "Bluetooth Headphones",
+        "image": "https://img.freepik.com/premium-photo/black-wireless-earbuds-charging-case-with-white-background_1102161-8027.jpg",
+        "description": "Wireless headphones with noise-cancellation.",
+        "price": 149.99,
+        "category": "Electronics",
+        "ratings": 4.3,
+        "createdAt": "2024-08-03T12:00:00Z",
+        "brand": "Brand C"
+    },
+    {
+        "name": "Electric Kettle",
+        "image": "https://img.freepik.com/premium-photo/3d-plastic-design-sleek-modern-electric-kettle-with-advanced-features-vibrant-colors_839035-1783387.jpg",
+        "description": "Fast boiling electric kettle.",
+        "price": 29.99,
+        "category": "Home Appliances",
+        "ratings": 4.5,
+        "createdAt": "2024-08-04T13:00:00Z",
+        "brand": "Brand D"
+    },
+    {
+        "name": "Air Purifier",
+        "image": "https://img.freepik.com/premium-photo/air-purifier-houseplant-living-room-fresh-air-healthy-life-concept_35674-7276.jpg",
+        "description": "Efficient air purifier for home.",
+        "price": 199.99,
+        "category": "Home Appliances",
+        "ratings": 4.7,
+        "createdAt": "2024-08-05T14:00:00Z",
+        "brand": "Brand E"
+    },
+    {
+        "name": "Smartwatch Pro",
+        "image": "https://img.freepik.com/free-vector/realistic-style-fitness-trackers_23-2148509776.jpg",
+        "description": "Feature-packed smartwatch with health tracking.",
+        "price": 249.99,
+        "category": "Electronics",
+        "ratings": 4.4,
+        "createdAt": "2024-08-06T15:00:00Z",
+        "brand": "Brand A"
+    },
+    {
+        "name": "Gaming Laptop",
+        "image": "https://t4.ftcdn.net/jpg/04/18/56/79/240_F_418567906_ZWNt8qDKbwDsnGP5x1WkBnU6qCRZIQqh.jpg",
+        "description": "High-performance gaming laptop.",
+        "price": 1299.99,
+        "category": "Electronics",
+        "ratings": 4.9,
+        "createdAt": "2024-08-07T16:00:00Z",
+        "brand": "Brand F"
+    },
+    {
+        "name": "Leather Sofa",
+        "image": "https://img.freepik.com/premium-photo/wooden-dining-table-interior_756631-1287.jpg",
+        "description": "Luxurious leather sofa for living rooms.",
+        "price": 899.99,
+        "category": "Furniture",
+        "ratings": 4.5,
+        "createdAt": "2024-08-08T17:00:00Z",
+        "brand": "Brand G"
+    },
+    {
+        "name": "Dining Table Set",
+        "image": "https://img.freepik.com/premium-photo/dining-room-table-with-table-set-meal-with-flower-arrangement-it_1253114-10803.jpg",
+        "description": "Elegant dining table set for family dinners.",
+        "price": 499.99,
+        "category": "Furniture",
+        "ratings": 4.6,
+        "createdAt": "2024-08-09T18:00:00Z",
+        "brand": "Brand H"
+    },
+    {
+        "name": "Portable Speaker",
+        "image": "https://img.freepik.com/free-vector/realistic-mockup-with-black-portable-smart-speaker-gray-background_1441-2494.jpg",
+        "description": "Compact speaker with excellent sound quality.",
+        "price": 89.99,
+        "category": "Electronics",
+        "ratings": 4.2,
+        "createdAt": "2024-08-10T19:00:00Z",
+        "brand": "Brand I"
+    },
+    {
+        "name": "Electric Toothbrush",
+        "image": "https://img.freepik.com/free-vector/realistic-toothbrushes-set_1284-21540.jpg",
+        "description": "High-efficiency electric toothbrush.",
+        "price": 59.99,
+        "category": "Home Appliances",
+        "ratings": 4.4,
+        "createdAt": "2024-08-11T20:00:00Z",
+        "brand": "Brand J"
+    },
+    {
+        "name": "Organic Coffee Maker",
+        "image": "https://img.freepik.com/premium-photo/glass-coffee-maker-coffee-beans-wooden-tray_1191615-9587.jpg",
+        "description": "Coffee maker with organic brewing options.",
+        "price": 79.99,
+        "category": "Home Appliances",
+        "ratings": 4.3,
+        "createdAt": "2024-08-12T21:00:00Z",
+        "brand": "Brand K"
+    },
+    {
+        "name": "Luxury Bed",
+        "image": "https://img.freepik.com/premium-photo/bed-with-white-headboard-gold-headboard_740566-3311.jpg",
+        "description": "Comfortable luxury bed with premium materials.",
+        "price": 1399.99,
+        "category": "Furniture",
+        "ratings": 4.7,
+        "createdAt": "2024-08-13T22:00:00Z",
+        "brand": "Brand L"
+    },
+    {
+        "name": "Electric Grill",
+        "image": "https://img.freepik.com/premium-photo/indoor-grill-cooking-juicy-steaks-with-lid-open-grilling-grates-visible-clear-png-white-background_94628-88906.jpg",
+        "description": "Compact electric grill for easy cooking.",
+        "price": 119.99,
+        "category": "Home Appliances",
+        "ratings": 4.1,
+        "createdAt": "2024-08-14T23:00:00Z",
+        "brand": "Brand M"
+    },
+    {
+        "name": "Smart Thermostat",
+        "image": "https://img.freepik.com/premium-photo/smart-thermostat-wall-with-cozy-living-room-background-ideal-home-automation_1064559-103038.jpg",
+        "description": "Intelligent thermostat for efficient home temperature control.",
+        "price": 199.99,
+        "category": "Home Appliances",
+        "ratings": 4.6,
+        "createdAt": "2024-08-15T10:00:00Z",
+        "brand": "Brand N"
+    },
+    {
+        "name": "Sofa Bed",
+        "image": "https://img.freepik.com/premium-photo/sofa-relaxation-comfort_636537-274673.jpg",
+        "description": "Versatile sofa bed with modern design.",
+        "price": 349.99,
+        "category": "Furniture",
+        "ratings": 4.3,
+        "createdAt": "2024-08-16T11:00:00Z",
+        "brand": "Brand O"
+    },
+    {
+        "name": "Bookshelf",
+        "image": "https://img.freepik.com/premium-photo/modern-organized-beautiful-bookshelves-design-keeping-books_1218867-151503.jpg",
+        "description": "Stylish bookshelf for home library.",
+        "price": 199.99,
+        "category": "Furniture",
+        "ratings": 4.4,
+        "createdAt": "2024-08-17T12:00:00Z",
+        "brand": "Brand P"
+    },
+    {
+        "name": "Smart Home Hub",
+        "image": "https://img.freepik.com/premium-photo/green-wall-with-tv-lamp-it_963895-2299.jpg",
+        "description": "Central hub for smart home devices.",
+        "price": 129.99,
+        "category": "Electronics",
+        "ratings": 4.5,
+        "createdAt": "2024-08-18T13:00:00Z",
+        "brand": "Brand Q"
+    },
+    {
+        "name": "Coffee Table",
+        "image": "https://img.freepik.com/premium-photo/green-wall-with-tv-lamp-it_963895-2299.jpg",
+        "description": "Elegant coffee table for living rooms.",
+        "price": 149.99,
+        "category": "Furniture",
+        "ratings": 4.2,
+        "createdAt": "2024-08-19T14:00:00Z",
+        "brand": "Brand R"
+    },
+    {
+        "name": "Portable Air Conditioner",
+        "image": "https://img.freepik.com/free-vector/white-air-conditioner-climate-control-office-3d-home-summer-air-conditioning-system-conditioner-ventilation-air-illustration_1284-51588.jpg",
+        "description": "Efficient portable air conditioner for cooling.",
+        "price": 249.99,
+        "category": "Home Appliances",
+        "ratings": 4.6,
+        "createdAt": "2024-08-20T15:00:00Z",
+        "brand": "Brand S"
+    },
+    {
+        "name": "Electric Wine Opener",
+        "image": "https://img.freepik.com/free-photo/assortment-with-minimal-tumbler-drinks_23-2149029172.jpg",
+        "description": "Automatic wine opener for effortless use.",
+        "price": 39.99,
+        "category": "Home Appliances",
+        "ratings": 4.3,
+        "createdAt": "2024-08-21T16:00:00Z",
+        "brand": "Brand T"
+    },
+    {
+        "name": "Cordless Vacuum Cleaner",
+        "image": "https://img.freepik.com/free-photo/close-up-individual-using-vacuum-cleaner_23-2148529583.jpg",
+        "description": "Convenient cordless vacuum cleaner for quick cleanups.",
+        "price": 169.99,
+        "category": "Home Appliances",
+        "ratings": 4.4,
+        "createdAt": "2024-08-22T17:00:00Z",
+        "brand": "Brand U"
+    },
+    {
+        "name": "Smart TV Stick",
+        "image": "https://img.freepik.com/premium-photo/tv-remote-controller-remote-control-device-isolated-white-background_1208970-17167.jpg",
+        "description": "Stream content to your TV with this smart stick.",
+        "price": 49.99,
+        "category": "Electronics",
+        "ratings": 4.2,
+        "createdAt": "2024-08-23T18:00:00Z",
+        "brand": "Brand V"
+    },
+    {
+        "name": "Air Fryer",
+        "image": "https://img.freepik.com/free-photo/view-modern-hot-air-fryer-with-cooked-food_23-2151737108.jpg",
+        "description": "Healthy air fryer for crispy cooking without oil.",
+        "price": 119.99,
+        "category": "Home Appliances",
+        "ratings": 4.6,
+        "createdAt": "2024-08-24T19:00:00Z",
+        "brand": "Brand W"
+    },
+    {
+        "name": "Digital Camera",
+        "image": "https://t4.ftcdn.net/jpg/02/82/93/53/240_F_282935329_uc7upEQrMvoSnuC6Rz9DpEnvKtbbRKiC.jpg",
+        "description": "High-resolution digital camera for stunning photos.",
+        "price": 599.99,
+        "category": "Electronics",
+        "ratings": 4.8,
+        "createdAt": "2024-08-25T20:00:00Z",
+        "brand": "Brand X"
+    },
+    {
+        "name": "Blender",
+        "image": "https://t3.ftcdn.net/jpg/02/78/87/84/240_F_278878480_71OVRLHoTxmH6Bw4OLcjuuD1bPABJwMH.jpg",
+        "description": "Powerful blender for smoothies and soups.",
+        "price": 89.99,
+        "category": "Home Appliances",
+        "ratings": 4.4,
+        "createdAt": "2024-08-26T21:00:00Z",
+        "brand": "Brand Y"
+    },
+    {
+        "name": "Home Theater System",
+        "image": "https://img.freepik.com/premium-photo/living-room-with-home-theater-system-showcasing-large-screen-surround-sound-speakers_1229213-48184.jpg",
+        "description": "Surround sound system for cinematic experience.",
+        "price": 349.99,
+        "category": "Electronics",
+        "ratings": 4.7,
+        "createdAt": "2024-08-27T22:00:00Z",
+        "brand": "Brand Z"
+    },
+    {
+        "name": "Electric Blanket",
+        "image": "https://img.freepik.com/premium-photo/smart-hot-warm-blanket-winter-white-clear-surface-png-transparent-background_94628-30305.jpg",
+        "description": "Cozy electric blanket with adjustable heat settings.",
+        "price": 79.99,
+        "category": "Home Appliances",
+        "ratings": 4.5,
+        "createdAt": "2024-08-28T23:00:00Z",
+        "brand": "Brand A"
+    },
+    {
+        "name": "High Chair",
+        "image": "https://img.freepik.com/free-photo/bar-stool-with-foldable-back-loft-style_181624-44177.jpg",
+        "description": "Adjustable high chair for toddlers.",
+        "price": 129.99,
+        "category": "Furniture",
+        "ratings": 4.6,
+        "createdAt": "2024-08-29T10:00:00Z",
+        "brand": "Brand B"
+    },
+    {
+        "name": "Gaming Console",
+        "image": "https://img.freepik.com/free-photo/view-3d-video-game-controller_23-2151005827.jpg",
+        "description": "Latest gaming console with new games.",
+        "price": 399.99,
+        "category": "Electronics",
+        "ratings": 4.9,
+        "createdAt": "2024-08-30T11:00:00Z",
+        "brand": "Brand C"
+    },
+    {
+        "name": "Washing Machine",
+        "image": "https://img.freepik.com/free-vector/washing-machine-realistic-background-with-laundry-equipment-symbols-illustration_1284-29130.jpg?",
+        "description": "Efficient washing machine with multiple settings.",
+        "price": 499.99,
+        "category": "Home Appliances",
+        "ratings": 4.4,
+        "createdAt": "2024-08-31T12:00:00Z",
+        "brand": "Brand D"
+    },
+    {
+        "name": "Mattress",
+        "image": "https://img.freepik.com/free-photo/view-3d-mattress-with-clouds_23-2151113498.jpg",
+        "description": "Comfortable mattress with memory foam.",
+        "price": 699.99,
+        "category": "Furniture",
+        "ratings": 4.7,
+        "createdAt": "2024-09-01T13:00:00Z",
+        "brand": "Brand E"
+    },
+    {
+        "name": "Refrigerator",
+        "image": "https://img.freepik.com/free-photo/retro-refrigerator-indoors_23-2150711916.jpg",
+        "description": "Spacious refrigerator with energy-efficient cooling.",
+        "price": 899.99,
+        "category": "Home Appliances",
+        "ratings": 4.6,
+        "createdAt": "2024-09-02T14:00:00Z",
+        "brand": "Brand F"
+    },
+    {
+        "name": "Outdoor Grill",
+        "image": "https://img.freepik.com/free-photo/man-with-barbecue-nature_23-2148199407.jpg",
+        "description": "Heavy-duty grill for outdoor cooking.",
+        "price": 249.99,
+        "category": "Home Appliances",
+        "ratings": 4.5,
+        "createdAt": "2024-09-03T15:00:00Z",
+        "brand": "Brand G"
+    },
+    {
+        "name": "Desk Lamp",
+        "image": "https://img.freepik.com/free-photo/simple-wood-desk-with-lamp-notebook_23-2148267482.jpg",
+        "description": "Adjustable desk lamp with LED lighting.",
+        "price": 39.99,
+        "category": "Furniture",
+        "ratings": 4.3,
+        "createdAt": "2024-09-04T16:00:00Z",
+        "brand": "Brand H"
+    },
+    {
+        "name": "Microwave Oven",
+        "image": "https://t3.ftcdn.net/jpg/02/56/10/30/240_F_256103090_qqjZPWw3Bx0jXFX96oSEJCcMBboBj3DQ.jpg",
+        "description": "Compact microwave oven with multiple settings.",
+        "price": 119.99,
+        "category": "Home Appliances",
+        "ratings": 4.4,
+        "createdAt": "2024-09-05T17:00:00Z",
+        "brand": "Brand I"
+    },
+    {
+        "name": "Gaming Chair",
+        "image": "https://img.freepik.com/free-photo/gaming-controller-chair-high-angle_23-2149829126.jpg",
+        "description": "Ergonomic gaming chair with adjustable features.",
+        "price": 229.99,
+        "category": "Furniture",
+        "ratings": 4.6,
+        "createdAt": "2024-09-06T18:00:00Z",
+        "brand": "Brand J"
+    },
+    {
+        "name": "Electric Toothbrush",
+        "image": "https://img.freepik.com/free-vector/toothpaste-advertising_52683-10597.jpg",
+        "description": "Rechargeable electric toothbrush with multiple modes.",
+        "price": 59.99,
+        "category": "Home Appliances",
+        "ratings": 4.5,
+        "createdAt": "2024-09-07T19:00:00Z",
+        "brand": "Brand K"
+    },
+    {
+        "name": "Water Filter",
+        "image": "https://img.freepik.com/premium-photo/generative-ai-theme-water-filtration-system-home-clean-soft-liquid-drinking_1041545-12040.jpg",
+        "description": "High-performance water filter for clean drinking water.",
+        "price": 79.99,
+        "category": "Home Appliances",
+        "ratings": 4.7,
+        "createdAt": "2024-09-08T20:00:00Z",
+        "brand": "Brand L"
+    },
+    {
+        "name": "Digital Thermometer",
+        "image": "https://img.freepik.com/free-vector/virus-detected-realistic-background_1284-72862.jpg",
+        "description": "Quick and accurate digital thermometer.",
+        "price": 29.99,
+        "category": "Home Appliances",
+        "ratings": 4.2,
+        "createdAt": "2024-09-09T21:00:00Z",
+        "brand": "Brand M"
+    }
+    
+]
