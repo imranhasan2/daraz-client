@@ -1,6 +1,6 @@
 
 
-const Card = ({ product }) => {
+const Card = ({ product,handlePaginate,setCurrentPage,currentPage }) => {
     const { name, image, description, price, category, ratings, createdAt, brand } = product
 
 
@@ -31,6 +31,7 @@ const Card = ({ product }) => {
                     </div>
                 </div>
             </div>
+          
         </div>
     );
 };
