@@ -16,7 +16,10 @@ const Home = () => {
     const [sortPrice, setSortPrice] = useState("priceLowToHigh")
 
     const [currentPage, setCurrentPage] = useState(1)
-    const [postParPage, setPostParPage] = useState(5)
+    const [postParPage, setPostParPage] = useState(8)
+    const [brand, setBrand] = useState('');
+    const [category, setCategory] = useState('');
+    const [price, setPriceRange] = useState('');
 
 
 
@@ -24,12 +27,16 @@ const Home = () => {
 
 
 
-    const url = `http://localhost:3000/products?search=${search}&sortPrice=${sortPrice}&limit=${postParPage}&page=${currentPage}`
+    const url = `https://daraz-server-rose.vercel.app/products?search=${search}&sortPrice=${sortPrice}&limit=${postParPage}&page=${currentPage}&brand=${brand}&category=${category}&price=${price}`;
+ 
+
+
 
     const { data, refetch } = useQuery({
-        queryKey: ['product', search, sortPrice, currentPage],
+        queryKey: ['product', search, sortPrice, currentPage,brand,category,price],
         queryFn: async () => {
             const data = await axios.get(url)
+            console.log(`Fetching data from: ${url}`);
             return data.data
 
         }
@@ -80,14 +87,28 @@ const Home = () => {
     // filter product....
 
     const handleBrandChange = (e) => {
+       setBrand(e.target.value)
+       console.log(e.target.value)
+       setCurrentPage(1);
+        refetch()
 
     }
     const handleCategoryChange = (e) => {
+        setCategory(e.target.value)
+        console.log(e.target.value)
+        setCurrentPage(1);
+        refetch()
 
     }
     const handlePriceRangeChange = (e) => {
-
-    }
+        const selectedValue = e.target.value;
+        // Ensure correct formatting
+        const formattedPrice = selectedValue === '' ? '' : selectedValue.replace(' - ', '-');
+        setPriceRange(formattedPrice);
+        console.log('Price Range:', formattedPrice);
+        setCurrentPage(1);
+        refetch();
+    };
 
     return (
         <div>
@@ -126,6 +147,8 @@ const Home = () => {
 
                 </div>
             </div>
+
+
             {/* filter */}
             <div className="flex justify-center sm:gap-2 gap-5">
                 <h2 className=""> Filter Products</h2>
@@ -153,9 +176,9 @@ const Home = () => {
                     <label>Price Range:</label>
                     <select onChange={handlePriceRangeChange}>
                         <option value="">All</option>
-                        <option value="0-50">0 - 50</option>
-                        <option value="51-100">51 - 400</option>
-                        <option value="101-200">401 - 2000</option>
+                        <option value="0-50">0 - 400</option>
+                        <option value="51-100">401 - 2000</option>
+                        
                     </select>
                 </div>
             </div>
@@ -176,18 +199,20 @@ const Home = () => {
                     Previous
                 </button>
 
-                {number.map((pageNum) => (
-                    <button
-                        key={pageNum}
-                        className={`px-4 py-2 rounded-lg ${currentPage === pageNum
+                <span >
+                    {number.map((pageNum) => (
+                        <button
+                            key={pageNum}
+                            className={`px-4 py-2 rounded-lg wrap ${currentPage === pageNum
                                 ? 'bg-blue-500 text-white font-bold'
                                 : 'bg-white text-gray-700 border border-gray-300 hover:bg-gray-100'
-                            }`}
-                        onClick={() => handlePaginate(pageNum)}
-                    >
-                        {pageNum}
-                    </button>
-                ))}
+                                }`}
+                            onClick={() => handlePaginate(pageNum)}
+                        >
+                            {pageNum}
+                        </button>
+                    ))}
+                </span>
 
                 <button
                     disabled={currentPage === totalPage}
